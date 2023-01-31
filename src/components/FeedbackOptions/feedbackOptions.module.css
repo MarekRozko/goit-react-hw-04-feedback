@@ -1,0 +1,29 @@
+.buttonFeedback {
+    padding: 7px 15px;
+    border: 2px solid rgb(12, 12, 220);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.buttonFeedback:not(:last-child) {
+    margin-right: 20px;
+}
+
+.buttonFeedback:hover {
+    background-color: greenyellow;
+    color: rgb(241, 132, 6);
+}
+.listButtons {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.itemListButtons,
+.ListStatistics {
+    list-style: none;
+}

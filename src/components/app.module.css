@@ -1,0 +1,7 @@
+.containerFeedback {
+    width: 400px;
+    margin: 100px 600px;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(203, 29, 151);
+}
